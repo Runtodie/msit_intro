@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>대한민국 과학기술정보통신부 (MSIT) 디지털 안내관</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Lucide Icons (CDN) & Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- 상단 네비게이션 헤더 -->
+  <header class="header">
+    <div class="nav-container">
+      <div class="logo-area">
+        <div class="flag-icon">
+          <span class="flag-circle red"></span>
+          <span class="flag-circle blue"></span>
+        </div>
+        <div class="logo-text">
+          <span class="ministry-title">과학기술정보통신부</span>
+          <span class="ministry-en">Ministry of Science and ICT</span>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="#about" class="nav-item">부처 소개</a>
+        <a href="#missions" class="nav-item">핵심 4대 업무</a>
+        <a href="#support-finder" class="nav-item highlight-nav">나의 맞춤 혜택 찾기</a>
+        <a href="#trends" class="nav-item">3대 미래동향</a>
+        <a href="#news" class="nav-item">최신 정책 뉴스</a>
+        <a href="#quiz" class="nav-item badge-link">알기 쉬운 퀴즈</a>
+      </nav>
+      <div class="header-action">
+        <a href="https://www.msit.go.kr" target="_blank" rel="noopener noreferrer" class="btn-primary-sm">
+          <span>공식 포털 바로가기</span>
+          <i data-lucide="external-link"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 메인 히어로 섹션 -->
+  <section class="hero-section">
+    <div class="hero-glow glow-1"></div>
+    <div class="hero-glow glow-2"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <i data-lucide="sparkles"></i>
+        <span>대한민국의 미래를 여는 과학기술·디지털 혁신</span>
+      </div>
+      <h1 class="hero-title">
+        상상을 현실로 만드는 힘,<br>
+        <span class="gradient-text">과학기술정보통신부</span>가 함께합니다
+      </h1>
+      <p class="hero-desc">
+        인공지능(AI), 첨단 양자컴퓨팅, 우주개척, 든든한 사이버 보안까지.<br>
+        국민 모두가 누리는 따뜻하고 안전한 디지털 세상을 만들어 갑니다.
+      </p>
+
+      <!-- 퀵 스탯 요약 -->
+      <div class="quick-stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon"><i data-lucide="cpu"></i></div>
+          <div class="stat-info">
+            <span class="stat-num">AI G3</span>
+            <span class="stat-label">글로벌 3대 AI 강국 도약</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i data-lucide="orbit"></i></div>
+          <div class="stat-info">
+            <span class="stat-num">양자·우주</span>
+            <span class="stat-label">미래 전략 신기술 개척</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i data-lucide="shield-check"></i></div>
+          <div class="stat-info">
+            <span class="stat-num">안전·포용</span>
+            <span class="stat-label">국민 안심 디지털 생태계</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i data-lucide="lightbulb"></i></div>
+          <div class="stat-info">
+            <span class="stat-num">8조+ 원</span>
+            <span class="stat-label">국가전략 R&D 집중 투자</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 부처 소개 섹션 (국민 눈높이 해설) -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">ABOUT MSIT</span>
+        <h2 class="section-title">과학기술정보통신부는 무슨 일을 하나요?</h2>
+        <p class="section-sub">
+          어렵게 느껴지는 첨단 과학과 정보통신 기술을 우리 일상 속에 안전하고 편리하게 연결해주는 대한민국 중앙행정기관입니다.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="card-icon-wrapper bg-blue">
+            <i data-lucide="flask-conical"></i>
+          </div>
+          <h3>기초연구 & 미래기술 육성</h3>
+          <p>
+            연구원들이 실패를 두려워하지 않고 위대한 도전을 할 수 있도록 연구개발(R&D) 예산을 지원하고, 차세대 먹거리가 될 미래 원천기술을 발굴합니다.
+          </p>
+          <ul class="about-list">
+            <li><i data-lucide="check-circle-2"></i> K-문샷 프로젝트 & AI 연구동료(AI Co-Scientist) 육성</li>
+            <li><i data-lucide="check-circle-2"></i> 우수 과학인재 장학 및 청년 연구자 지원</li>
+          </ul>
+        </div>
+
+        <div class="about-card highlight-card">
+          <div class="card-icon-wrapper bg-purple">
+            <i data-lucide="network"></i>
+          </div>
+          <h3>디지털 혁신 & ICT 인프라</h3>
+          <p>
+            초고속 통신망(5G·6G), 인공지능(AI), 클라우드 컴퓨팅 등 대한민국 어디서나 누리는 최고 수준의 디지털 인프라를 구축하고 관리합니다.
+          </p>
+          <ul class="about-list">
+            <li><i data-lucide="check-circle-2"></i> 전 산업 분야 AI 대전환(AX) 거점 확대</li>
+            <li><i data-lucide="check-circle-2"></i> 안정적인 주파수 자원 관리 및 차세대 네트워크 연구</li>
+          </ul>
+        </div>
+
+        <div class="about-card">
+          <div class="card-icon-wrapper bg-green">
+            <i data-lucide="users"></i>
+          </div>
+          <h3>디지털 포용 & 국민 안심 사회</h3>
+          <p>
+            어르신부터 어린이까지 누구도 디지털 세상에서 소외되지 않도록 돕고, 해킹과 보이스피싱 등 디지털 위협으로부터 국민을 안전하게 지킵니다.
+          </p>
+          <ul class="about-list">
+            <li><i data-lucide="check-circle-2"></i> 디지털 배움터 & 어르신 스마트폰 교육 지원</li>
+            <li><i data-lucide="check-circle-2"></i> 국가 사이버 침해사고 대응 및 양자암호 보안 실증</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4대 핵심 정책/주요업무 인터랙티브 섹션 -->
+  <section id="missions" class="section missions-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">CORE MISSIONS</span>
+        <h2 class="section-title">과기정통부 핵심 4대 추진 업무</h2>
+        <p class="section-sub">탭을 클릭하여 각 분야별 국민 체감 정책과 추진 목표를 확인해 보세요.</p>
+      </div>
+
+      <!-- 탭 컨트롤러 -->
+      <div class="tab-buttons">
+        <button class="tab-btn active" data-tab="tab-ai">
+          <i data-lucide="bot"></i>
+          <span>인공지능(AI) 국가 총력전</span>
+        </button>
+        <button class="tab-btn" data-tab="tab-quantum">
+          <i data-lucide="atom"></i>
+          <span>양자과학기술 종합 선도</span>
+        </button>
+        <button class="tab-btn" data-tab="tab-space">
+          <i data-lucide="rocket"></i>
+          <span>우주·원자력 미래 신산업</span>
+        </button>
+        <button class="tab-btn" data-tab="tab-safety">
+          <i data-lucide="shield-alert"></i>
+          <span>사이버 보안 & 디지털 권리</span>
+        </button>
+      </div>
+
+      <!-- 탭 본문 영역 -->
+      <div class="tab-content-container">
+        <!-- 탭 1: AI -->
+        <div id="tab-ai" class="tab-pane active">
+          <div class="pane-grid">
+            <div class="pane-text">
+              <span class="pane-badge">AI 혁신 1위 생태계</span>
+              <h3>국민 누구나 일상에서 AI를 누리는 'AI G3 대한민국'</h3>
+              <p>
+                과학기술AI부총리급 거버넌스 체계를 바탕으로, 국가 AI 위원회를 신설하고 대규모 GPU 인프라 확충 및 독자 거대언어모델(LLM) 경쟁력을 확보하고 있습니다.
+              </p>
+              <div class="key-points">
+                <div class="point-item">
+                  <div class="p-num">01</div>
+                  <div>
+                    <strong>국가 AI 컴퓨팅 센터 구축</strong>
+                    <p>중소기업·스타트업도 최고급 AI 연산 자원을 마음껏 쓸 수 있도록 고성능 GPU 인프라 전폭 지원</p>
+                  </div>
+                </div>
+                <div class="point-item">
+                  <div class="p-num">02</div>
+                  <div>
+                    <strong>지역 AX(AI 대전환) 거점 프로젝트</strong>
+                    <p>제조업, 헬스케어, 농축산업 등 전국 산업 현장에 맞춤형 AI 모델 도입 촉진</p>
+                  </div>
+                </div>
+                <div class="point-item">
+                  <div class="p-num">03</div>
+                  <div>
+                    <strong>AI 기본법과 안전성 연구소 설립</strong>
+                    <p>국민이 안심하고 신뢰할 수 있는 윤리적이고 안전한 AI 사용 환경 조성</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pane-visual">
+              <div class="visual-card">
+                <h4>💡 국민이 체감하는 혜택</h4>
+                <ul>
+                  <li><i data-lucide="check"></i> 복지 사각지대 발굴 AI 케어콜 서비스 확대</li>
+                  <li><i data-lucide="check"></i> 도로 파임(포트홀), 산불 등 재난 조기감지 시스템</li>
+                  <li><i data-lucide="check"></i> 의료영상 분석 AI로 희귀질환 조기 진단 보조</li>
+                </ul>
+                <div class="visual-footer">
+                  <span>추진목표 : 2030 연구생산성 2배 향상</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 탭 2: 양자 -->
+        <div id="tab-quantum" class="tab-pane">
+          <div class="pane-grid">
+            <div class="pane-text">
+              <span class="pane-badge">게임 체인저(Game Changer)</span>
+              <h3>슈퍼컴퓨터로 수백만 년 걸릴 계산을 몇 분 만에, 양자강국 도약</h3>
+              <p>
+                양자(Quantum) 기술은 미래 안보와 산업을 완전히 뒤바꿀 핵심 기술입니다. 정부 최초 '양자 마스터플랜'을 수립하고 2035년까지 세계 1위 퀀텀칩 제조국 도약을 추진합니다.
+              </p>
+              <div class="key-points">
+                <div class="point-item">
+                  <div class="p-num">01</div>
+                  <div>
+                    <strong>양자컴퓨터 국산화 개발</strong>
+                    <p>자체 50큐비트·1000큐비트급 초전도 및 이온트랩 양자컴퓨터 플랫폼 구축 R&D 진행</p>
+                  </div>
+                </div>
+                <div class="point-item">
+                  <div class="p-num">02</div>
+                  <div>
+                    <strong>양자 인터넷 & 양자내성암호(PQC)</strong>
+                    <p>도청이 물리적으로 불가능한 국가 기간 양자통신망 및 해킹 방어 체계 실증</p>
+                  </div>
+                </div>
+                <div class="point-item">
+                  <div class="p-num">03</div>
+                  <div>
+                    <strong>양자 기업 2,000개 육성</strong>
+                    <p>3대 양자 클러스터 조성과 융합 전문 인력 1만 명 양성 프로젝트 가동</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pane-visual">
+              <div class="visual-card">
+                <h4>💡 양자 기술이 바꿀 미래</h4>
+                <ul>
+                  <li><i data-lucide="check"></i> 신약 개발 후보 물질 분석 기간 수년에서 수주일로 단축</li>
+                  <li><i data-lucide="check"></i> 절대 뚫리지 않는 완벽한 금융·국방 암호 인프라</li>
+                  <li><i data-lucide="check"></i> 배터리 효율을 획기적으로 높이는 신소재 초고속 설계</li>
+                </ul>
+                <div class="visual-footer">
+                  <span>정부 제1차 양자 마스터플랜 가동 중</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 탭 3: 우주 -->
+        <div id="tab-space" class="tab-pane">
+          <div class="pane-grid">
+            <div class="pane-text">
+              <span class="pane-badge">미래 프론티어</span>
+              <h3>우주항공청 협력 & 미래 7대 SEED 전략기술</h3>
+              <p>
+                달과 화성을 향한 우주 개척, 소형모듈원자로(SMR) 및 인공태양(KSTAR) 핵융합 에너지 등 미래 인류를 구원할 에너지와 프론티어 기술을 육성합니다.
+              </p>
+              <div class="key-points">
+                <div class="point-item">
+                  <div class="p-num">01</div>
+                  <div>
+                    <strong>독자 우주 수송 능력 완성</strong>
+                    <p>누리호 반복 발사 안정화 및 재사용이 가능한 차세대 대형 발사체 개발 지원</p>
+                  </div>
+                </div>
+                <div class="point-item">
+                  <div class="p-num">02</div>
+                  <div>
+                    <strong>저궤도 위성통신 독자망</strong>
+                    <p>도심항공교통(UAM), 자율주행, 해양까지 끊김 없는 6G 위성 통신망 시범 구축</p>
+                  </div>
+                </div>
+                <div class="point-item">
+                  <div class="p-num">03</div>
+                  <div>
+                    <strong>무탄소 에너지: SMR & 핵융합</strong>
+                    <p>혁신형 소형원자로 조기 상용화와 1억도 플라즈마 초고온 유지 세계 기록 경신 지원</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pane-visual">
+              <div class="visual-card">
+                <h4>💡 대한민국 우주 경제 시대</h4>
+                <ul>
+                  <li><i data-lucide="check"></i> 민간 주도 뉴스페이스(New Space) 생태계 확장</li>
+                  <li><i data-lucide="check"></i> 달 착륙선 독자 개발 및 우주 자원 탐사 기반 마련</li>
+                  <li><i data-lucide="check"></i> 기후변화 및 초정밀 기상 관측 고성능 위성 운용</li>
+                </ul>
+                <div class="visual-footer">
+                  <span>세계 5대 우주 강국 목표</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 탭 4: 사이버보안 -->
+        <div id="tab-safety" class="tab-pane">
+          <div class="pane-grid">
+            <div class="pane-text">
+              <span class="pane-badge">국민 안심 동행</span>
+              <h3>빈틈없는 디지털 안전망과 디지털 포용 사회 실현</h3>
+              <p>
+                보이스피싱, 딥페이크 악용, 대규모 통신 장애 등 디지털 역기능을 선제적으로 예방하고, 디지털 취약계층 누구나 혜택을 누리도록 돕습니다.
+              </p>
+              <div class="key-points">
+                <div class="point-item">
+                  <div class="p-num">01</div>
+                  <div>
+                    <strong>보이스피싱·스미싱 원천 차단</strong>
+                    <p>대포폰 방지, 불법 스팸 번호 변조 차단 및 AI 탐지 기반 사기 사이트 실시간 차단</p>
+                  </div>
+                </div>
+                <div class="point-item">
+                  <div class="p-num">02</div>
+                  <div>
+                    <strong>통신망 및 데이터센터 안정성 점검</strong>
+                    <p>화재, 지진 등 재난 상황에서도 국민 생활 통신이 마비되지 않도록 이중화 체계 의무화</p>
+                  </div>
+                </div>
+                <div class="point-item">
+                  <div class="p-num">03</div>
+                  <div>
+                    <strong>전국민 디지털 배움터</strong>
+                    <p>키오스크 주문, 스마트폰 뱅킹 교육 등 주민센터 기반 디지털 역량 교육 상시 제공</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pane-visual">
+              <div class="visual-card">
+                <h4>💡 국민 안전 지킴이 실적</h4>
+                <ul>
+                  <li><i data-lucide="check"></i> 연간 수천만 건 악성 스미싱 문자 조기 차단</li>
+                  <li><i data-lucide="check"></i> 소상공인·중소기업 무료 정보보호 컨설팅 및 보안 솔루션</li>
+                  <li><i data-lucide="check"></i> 딥페이크 위조 탐지 SW 개발 및 유관기관 공조</li>
+                </ul>
+                <div class="visual-footer">
+                  <span>안전하고 신뢰받는 디지털 사회</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 국민 맞춤형 지원 찾기 (체크리스트 & 설문 인터랙티브 도구) -->
+  <section id="support-finder" class="section finder-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">CUSTOM SUPPORT CHECKLIST</span>
+        <h2 class="section-title">"나는 과기정통부에서 어떤 도움을 받을 수 있을까?"</h2>
+        <p class="section-sub">
+          해당하는 신분과 관심 분야를 선택하시면, 정부가 지원하는 맞춤형 혜택과 신청 경로를 즉시 찾아드립니다.
+        </p>
+      </div>
+
+      <div class="finder-wrapper">
+        <!-- 스텝 1: 나의 유형 선택 -->
+        <div class="finder-step-box">
+          <div class="step-indicator">
+            <span class="step-badge">STEP 1</span>
+            <h3>현재 본인의 상황이나 신분에 가장 가까운 항목을 골라주세요</h3>
+          </div>
+          <div class="identity-selector-grid">
+            <label class="identity-card active">
+              <input type="radio" name="userRole" value="citizen" checked>
+              <div class="id-icon"><i data-lucide="user"></i></div>
+              <div class="id-text">
+                <strong>일반 국민 / 시니어 / 학부모</strong>
+                <p>디지털 기기 교육, 가계통신비 절감, 스미싱 예방</p>
+              </div>
+            </label>
+
+            <label class="identity-card">
+              <input type="radio" name="userRole" value="student">
+              <div class="id-icon"><i data-lucide="graduation-cap"></i></div>
+              <div class="id-text">
+                <strong>학생 / 취업준비생 / 청년</strong>
+                <p>이공계 국가장학금, AI·SW 부트캠프, 해외 연수</p>
+              </div>
+            </label>
+
+            <label class="identity-card">
+              <input type="radio" name="userRole" value="researcher">
+              <div class="id-icon"><i data-lucide="microscope"></i></div>
+              <div class="id-text">
+                <strong>연구자 / 교수 / 이공계 박사</strong>
+                <p>국가 R&D 연구비 지원, 첨단 연구장비 공동활용</p>
+              </div>
+            </label>
+
+            <label class="identity-card">
+              <input type="radio" name="userRole" value="business">
+              <div class="id-icon"><i data-lucide="briefcase"></i></div>
+              <div class="id-text">
+                <strong>기업인 / 스타트업 / 소상공인</strong>
+                <p>고성능 GPU 바우처, AI 전환 지원, 정보보안 무료점검</p>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <!-- 스텝 2: 관심 분야 다중 체크리스트 -->
+        <div class="finder-step-box">
+          <div class="step-indicator">
+            <span class="step-badge">STEP 2</span>
+            <h3>관심 있는 분야나 꼭 해결하고 싶은 고민을 체크해주세요 (다중 선택 가능)</h3>
+          </div>
+          <div class="interest-checkbox-grid" id="interestTagsContainer">
+            <!-- JS로 신분에 맞춰 유동적으로 체크리스트 업데이트 -->
+          </div>
+        </div>
+
+        <!-- 버튼 영역 -->
+        <div class="finder-action-area">
+          <button type="button" class="btn-primary" id="btnFindSupport">
+            <i data-lucide="search-check"></i>
+            <span>내게 맞는 맞춤 지원사업 혜택 확인하기</span>
+          </button>
+          <button type="button" class="btn-secondary" id="btnResetSupport">
+            <i data-lucide="rotate-ccw"></i>
+            <span>선택 초기화</span>
+          </button>
+        </div>
+
+        <!-- 스텝 3: 진단 결과 출력 카드 -->
+        <div class="finder-result-area" id="finderResultArea">
+          <div class="result-header">
+            <div class="result-title-group">
+              <span class="result-badge"><i data-lucide="sparkles"></i> 분석 완료</span>
+              <h3 id="resultHeading">국민님을 위한 추천 정부 혜택 목록입니다</h3>
+              <p id="resultSubheading">총 <span id="resultCount" class="highlight-num">0</span>건의 지원 제도가 검색되었습니다.</p>
+            </div>
+          </div>
+          
+          <div class="result-cards-grid" id="resultCardsContainer">
+            <!-- JS 동적 생성 결과 카드 -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 과학기술·디지털 최신 동향 트렌드 카드 -->
+  <section id="trends" class="section trends-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">TECH TRENDS 2026</span>
+        <h2 class="section-title">국민이 꼭 알아야 할 3대 기술 동향</h2>
+        <p class="section-sub">우리 사회와 일상을 크게 바꿀 3가지 혁신 트렌드를 알기 쉽게 해설합니다.</p>
+      </div>
+
+      <div class="trend-cards-grid">
+        <!-- 트렌드 1 -->
+        <div class="trend-card">
+          <div class="trend-header">
+            <span class="trend-badge">Trend 01</span>
+            <span class="trend-keyword">생성형 AI &rarr; 실천적 피지컬 AI</span>
+          </div>
+          <div class="trend-body">
+            <h3>대화형 AI를 넘어 '행동하는 AI(Physical AI)'의 시대</h3>
+            <p>
+              단순히 글을 쓰고 그림을 그리던 챗봇 AI에서 나아가, 로봇·자율주행차·제조 공장과 결합하여 스스로 판단하고 물리적 작업을 수행하는 피지컬 AI가 급부상하고 있습니다.
+            </p>
+            <div class="trend-example">
+              <strong>과기정통부의 대응 :</strong>
+              <span>제조공정 AX 지원 및 'AI 연구동료(AI Co-Scientist)' 프로그램으로 바이오·신소재 연구 가속화</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 트렌드 2 -->
+        <div class="trend-card">
+          <div class="trend-header">
+            <span class="trend-badge">Trend 02</span>
+            <span class="trend-keyword">QX (양자 전환, Quantum X)</span>
+          </div>
+          <div class="trend-body">
+            <h3>디지털 전환(DX)을 잇는 '양자 전환(QX)'의 시작</h3>
+            <p>
+              슈퍼컴퓨터의 한계를 뛰어넘는 양자컴퓨터와 양자센서 기술이 산업 전반에 적용되어 신약 발견, 배터리 설계, 초정밀 항법 등 불가능하던 혁신을 현실화하고 있습니다.
+            </p>
+            <div class="trend-example">
+              <strong>과기정통부의 대응 :</strong>
+              <span>정부 첫 '양자 마스터플랜' 가동 및 13개국 글로벌 R&D 동맹, 3대 양자 클러스터 조성</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 트렌드 3 -->
+        <div class="trend-card">
+          <div class="trend-header">
+            <span class="trend-badge">Trend 03</span>
+            <span class="trend-keyword">6G & 차세대 보안</span>
+          </div>
+          <div class="trend-body">
+            <h3>우주와 지상을 잇는 초공간 통신 & 양자내성암호</h3>
+            <p>
+              지상 통신망을 넘어 저궤도 위성을 통해 하늘과 바다 어디서나 통신이 연결되는 6G 시대와, 미래 양자 해킹까지 원천 차단하는 차세대 양자 보안 암호가 핵심 인프라로 자리잡고 있습니다.
+            </p>
+            <div class="trend-example">
+              <strong>과기정통부의 대응 :</strong>
+              <span>국가 저궤도 위성통신망 개발 추진 및 양자내성암호(PQC) 전 공공·금융 인프라 실증 확대</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 최신 공식 보도자료 및 뉴스 섹션 (실제 과기정통부 URL 탑재) -->
+  <section id="news" class="section news-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="header-left">
+          <span class="section-tag">PRESS RELEASES & NEWS</span>
+          <h2 class="section-title">과기정통부 최신 정책 소식 및 보도자료</h2>
+          <p class="section-sub">공식 보도자료 및 정책 브리핑 기사를 원문 링크로 직접 확인하세요.</p>
+        </div>
+        <div class="news-filter">
+          <button class="filter-btn active" data-filter="all">전체</button>
+          <button class="filter-btn" data-filter="ai">AI·디지털</button>
+          <button class="filter-btn" data-filter="quantum">양자·미래기술</button>
+          <button class="filter-btn" data-filter="rnd">R&D·인재</button>
+        </div>
+      </div>
+
+      <div class="news-grid" id="newsContainer">
+        <!-- 뉴스 1 -->
+        <article class="news-card" data-category="quantum">
+          <div class="news-meta">
+            <span class="news-tag tag-quantum">양자 마스터플랜</span>
+            <span class="news-date">2026.01</span>
+          </div>
+          <h3 class="news-title">
+            <a href="https://www.msit.go.kr" target="_blank" rel="noopener noreferrer">
+              대한민국, 차기 인공지능(Next-AI) 시대를 선도할 정부 첫 양자 분야 종합계획(마스터플랜) 선포
+            </a>
+          </h3>
+          <p class="news-summary">
+            2035년까지 세계 1위 퀀텀칩 제조국 도약 및 양자 전문 기업 2,000개 육성을 목표로 하는 국가 총괄 양자 로드맵을 최초로 공식 수립하고 전주기 R&D 지원을 시작했습니다.
+          </p>
+          <div class="news-footer">
+            <span class="news-source"><i data-lucide="building-2"></i> 과기정통부 보도자료</span>
+            <a href="https://www.msit.go.kr" target="_blank" rel="noopener noreferrer" class="news-link">
+              전문 보기 <i data-lucide="arrow-up-right"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- 뉴스 2 -->
+        <article class="news-card" data-category="ai">
+          <div class="news-meta">
+            <span class="news-tag tag-ai">AI 전략</span>
+            <span class="news-date">2026</span>
+          </div>
+          <h3 class="news-title">
+            <a href="https://www.korea.kr" target="_blank" rel="noopener noreferrer">
+              AI 3대 강국(G3) 도약 총력… 과학기술AI부총리 체제 및 연구생산성 2배 혁신 K-문샷 추진
+            </a>
+          </h3>
+          <p class="news-summary">
+            국가 최고 수준의 AI 컴퓨팅 인프라를 확충하고, 신약개발과 신소재 등 다양한 과학 난제를 해결할 ‘AI 연구동료(AI Co-Scientist)’를 도입하여 국가 생산성을 대폭 제고합니다.
+          </p>
+          <div class="news-footer">
+            <span class="news-source"><i data-lucide="newspaper"></i> 대한민국 정책브리핑 (korea.kr)</span>
+            <a href="https://www.korea.kr" target="_blank" rel="noopener noreferrer" class="news-link">
+              전문 보기 <i data-lucide="arrow-up-right"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- 뉴스 3 -->
+        <article class="news-card" data-category="quantum">
+          <div class="news-meta">
+            <span class="news-tag tag-quantum">글로벌 협력</span>
+            <span class="news-date">2026.10</span>
+          </div>
+          <h3 class="news-title">
+            <a href="https://www.msit.go.kr" target="_blank" rel="noopener noreferrer">
+              주요 13개국, 양자기술 정책부터 연구개발, 산업화 등 전주기 협력 강화 다자대화 개최
+            </a>
+          </h3>
+          <p class="news-summary">
+            서울에서 미국, 일본, 유럽 등 핵심 13개국이 참가한 제9차 양자기술다자대회를 개최하고 글로벌 양자 공급망 및 공동 R&D, 인재 교류 협력을 공식 합의했습니다.
+          </p>
+          <div class="news-footer">
+            <span class="news-source"><i data-lucide="building-2"></i> 과기정통부 보도자료</span>
+            <a href="https://www.msit.go.kr" target="_blank" rel="noopener noreferrer" class="news-link">
+              전문 보기 <i data-lucide="arrow-up-right"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- 뉴스 4 -->
+        <article class="news-card" data-category="ai">
+          <div class="news-meta">
+            <span class="news-tag tag-security">정보보호 / 보안</span>
+            <span class="news-date">2026.05</span>
+          </div>
+          <h3 class="news-title">
+            <a href="https://www.msit.go.kr" target="_blank" rel="noopener noreferrer">
+              양자 보안, 더 이상 선택이 아닌 필수… 양자내성암호(PQC) 실증 확대 및 핵심기술 개발 본격 착수
+            </a>
+          </h3>
+          <p class="news-summary">
+            양자컴퓨터 출현에 따른 미래 암호체계 무력화 위협에 선제 대응하여, 주요 통신·공공 금융망에 양자내성암호 기술을 선제 검증하고 표준화 사업을 추진합니다.
+          </p>
+          <div class="news-footer">
+            <span class="news-source"><i data-lucide="building-2"></i> 과기정통부 보도자료</span>
+            <a href="https://www.msit.go.kr" target="_blank" rel="noopener noreferrer" class="news-link">
+              전문 보기 <i data-lucide="arrow-up-right"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- 뉴스 5 -->
+        <article class="news-card" data-category="rnd">
+          <div class="news-meta">
+            <span class="news-tag tag-rnd">미래 7대 SEED</span>
+            <span class="news-date">2026 하반기</span>
+          </div>
+          <h3 class="news-title">
+            <a href="https://www.korea.kr" target="_blank" rel="noopener noreferrer">
+              미래성장동력 7대 SEED 프로젝트 본격 가동… AI·우주·양자·SMR 등 국가전략기술 집중 지원
+            </a>
+          </h3>
+          <p class="news-summary">
+            우주항공, 양자, 첨단바이오, 소형모듈원자로(SMR), 핵융합, 재생에너지, 핵심 공급망을 대한민국 7대 씨앗(SEED)으로 삼아 8조 원 이상 규모의 R&D를 연계 지원합니다.
+          </p>
+          <div class="news-footer">
+            <span class="news-source"><i data-lucide="newspaper"></i> 대한민국 정책브리핑 (korea.kr)</span>
+            <a href="https://www.korea.kr" target="_blank" rel="noopener noreferrer" class="news-link">
+              전문 보기 <i data-lucide="arrow-up-right"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- 뉴스 6 -->
+        <article class="news-card" data-category="rnd">
+          <div class="news-meta">
+            <span class="news-tag tag-ai">글로벌 동맹</span>
+            <span class="news-date">2026.04</span>
+          </div>
+          <h3 class="news-title">
+            <a href="https://www.msit.go.kr" target="_blank" rel="noopener noreferrer">
+              한-불 수교 140주년, 인공지능·양자 등 전략 과학기술 동맹 강화 공동 연구 협력
+            </a>
+          </h3>
+          <p class="news-summary">
+            유럽 기초과학 강국인 프랑스와 고성능 AI 반도체, 양자 컴퓨터 하드웨어 및 청정에너지 분야에서 전략적 공동 연구 프로젝트를 출범했습니다.
+          </p>
+          <div class="news-footer">
+            <span class="news-source"><i data-lucide="building-2"></i> 과기정통부 보도자료</span>
+            <a href="https://www.msit.go.kr" target="_blank" rel="noopener noreferrer" class="news-link">
+              전문 보기 <i data-lucide="arrow-up-right"></i>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <!-- 공식 사이트 바로가기 배너 -->
+      <div class="official-banner">
+        <div class="banner-content">
+          <h4>더 많은 정부 보도자료와 과학기술 정책 원문을 찾고 계신가요?</h4>
+          <p>과학기술정보통신부 공식 포털에서 실시간 고시, 채용, 연구과제 공고를 바로 확인하실 수 있습니다.</p>
+        </div>
+        <div class="banner-buttons">
+          <a href="https://www.msit.go.kr" target="_blank" rel="noopener noreferrer" class="btn-primary">
+            과기정통부 보도자료실 바로가기 <i data-lucide="external-link"></i>
+          </a>
+          <a href="https://www.korea.kr" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+            대한민국 정책브리핑 포털 <i data-lucide="arrow-up-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 국민 이해도 쑥쑥! 과기정통부 미니 퀴즈 -->
+  <section id="quiz" class="section quiz-section">
+    <div class="container">
+      <div class="quiz-box">
+        <div class="quiz-header text-center">
+          <span class="section-tag">FUN INTERACTION</span>
+          <h2 class="section-title">알기 쉬운 과기정통부 상식 퀴즈 🎯</h2>
+          <p class="section-sub">퀴즈를 풀며 과기정통부의 주요 역할을 더 쉽게 이해해보세요!</p>
+        </div>
+
+        <div class="quiz-card" id="quizCard">
+          <div class="quiz-progress-bar">
+            <div class="progress-inner" id="quizProgress" style="width: 33.3%;"></div>
+          </div>
+          <div class="quiz-body">
+            <span class="q-step" id="qStep">질문 1 / 3</span>
+            <h3 class="q-title" id="qTitle">Q. 과학기술정보통신부가 추진하는 ‘AI 3대 강국’ 도약 정책의 핵심 약칭은 무엇일까요?</h3>
+            <div class="q-options" id="qOptions">
+              <!-- JS로 동적 렌더링 -->
+            </div>
+            <div class="q-feedback hidden" id="qFeedback">
+              <!-- 피드백 메시지 표시 -->
+            </div>
+          </div>
+          <div class="quiz-action">
+            <button class="btn-primary" id="btnNextQuiz" style="display: none;">다음 문제 풀기 <i data-lucide="arrow-right"></i></button>
+            <button class="btn-primary" id="btnRestartQuiz" style="display: none;">다시 도전하기 <i data-lucide="rotate-ccw"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 푸터 -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo-area">
+            <div class="flag-icon">
+              <span class="flag-circle red"></span>
+              <span class="flag-circle blue"></span>
+            </div>
+            <div class="logo-text">
+              <span class="ministry-title text-white">과학기술정보통신부</span>
+              <span class="ministry-en text-muted">Ministry of Science and ICT</span>
+            </div>
+          </div>
+          <p class="footer-desc">
+            세종특별자치시 가름로 142 (어진동) 과학기술정보통신부<br>
+            정부민원안내 콜센터 : 국번없이 110 (무료) / 대표전화 : 044-202-4114
+          </p>
+        </div>
+        <div class="footer-links-group">
+          <div class="footer-col">
+            <h5>주요 서비스</h5>
+            <ul>
+              <li><a href="https://www.msit.go.kr" target="_blank" rel="noopener noreferrer">공식 홈페이지</a></li>
+              <li><a href="https://www.iris.go.kr" target="_blank" rel="noopener noreferrer">범부처통합연구지원 (IRIS)</a></li>
+              <li><a href="https://www.nia.or.kr" target="_blank" rel="noopener noreferrer">한국지능정보사회진흥원 (NIA)</a></li>
+              <li><a href="https://www.kisa.or.kr" target="_blank" rel="noopener noreferrer">한국인터넷진흥원 (KISA)</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h5>디지털 안심망</h5>
+            <ul>
+              <li><a href="https://www.krcert.or.kr" target="_blank" rel="noopener noreferrer">KISA 보호나라 (사이버위협)</a></li>
+              <li><a href="https://www.118.or.kr" target="_blank" rel="noopener noreferrer">해킹·스팸 개인정보상담 118</a></li>
+              <li><a href="https://www.digitalbaeum.kr" target="_blank" rel="noopener noreferrer">디지털 배움터 교육신청</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 본 웹앱은 국민의 쉬운 이해를 돕기 위해 HTML/CSS/JS로 순수 제작된 과학기술정보통신부 디지털 안내관입니다.</p>
+        <span class="build-badge">단독 실행형 (No Server / Pure Web App)</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
